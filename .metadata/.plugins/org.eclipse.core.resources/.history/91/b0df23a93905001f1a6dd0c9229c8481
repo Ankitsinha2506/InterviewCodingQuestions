@@ -1,0 +1,18 @@
+package com.interview.codingquestions;
+
+// Java Program to Reverse String
+// Palindrome
+// Prime or Not
+// Fibonacci Series
+// Odd even
+// Natural Numbers
+// 
+public class ReverseString {
+	
+	public static void main(String[] args) {
+		String original = "Ankit Lal Sinha";
+		System.out.println("Original String :" +original);
+		
+	}
+
+}
