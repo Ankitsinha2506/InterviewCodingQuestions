@@ -10,7 +10,8 @@ public class HollowPattern {
 		System.out.println("Enter Numbers : ");
 		int n = sc.nextInt();
 		printPattern(n);
-		sc.close();	
+		sc.close();
+		
 	}
 	
 	public static void printPattern(int n) {
@@ -27,4 +28,5 @@ public class HollowPattern {
 			System.out.println();
 		}
 	}
+
 }
