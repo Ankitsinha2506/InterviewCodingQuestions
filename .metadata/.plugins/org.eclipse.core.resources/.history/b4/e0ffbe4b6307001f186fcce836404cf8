@@ -1,0 +1,14 @@
+package com.interview.patterncodingquestions;
+
+import java.util.Scanner;
+
+public class LeftTrianglePattern {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		// Take Input from User.
+		int n = sc.nextInt();
+		
+		sc.close();
+	}
+}

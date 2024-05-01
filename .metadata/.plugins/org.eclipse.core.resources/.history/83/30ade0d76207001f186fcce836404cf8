@@ -1,0 +1,7 @@
+package com.interview.patterncodingquestions;
+
+public class LeftTrianglePattern {
+	public static void main(String[] args) {
+		
+	}
+}
