@@ -23,8 +23,8 @@ public class FactorialNumber {
 		{
 			System.out.println(number + " Factorial : " + getFact(number));
 		}
-		else
-			System.out.println(" Negative Number : No Factorial");
+		
+		System.out.println(" Negative Number : No Factorial");
 		
 		sc.close();
 	}
