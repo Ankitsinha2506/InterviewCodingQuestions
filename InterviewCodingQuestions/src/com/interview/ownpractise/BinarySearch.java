@@ -1,5 +1,7 @@
 package com.interview.ownpractise;
 
+// BinarySearch is a key used to search key elements from multiple elements.
+
 public class BinarySearch {
     public static int binarySearch(int arr[],int findNums){
         int start = 0;
