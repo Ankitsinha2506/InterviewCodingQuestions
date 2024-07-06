@@ -1,0 +1,18 @@
+package com.interview.ownpractise;
+
+import java.util.Scanner;
+
+public class PalindromeString {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Any Number to check String Is Palindrome or NOt ?");
+		int str = sc.nextLine();
+		if(isPalindrome(str))	{
+			System.out.println("String is Palindrome");
+		} else {
+			System.out.println("String is Not Palindrome");
+		}
+		sc.close();
+	}
+
+}
