@@ -1,0 +1,13 @@
+package com.interview.ownpractise;
+
+/* 
+ 	* In BubbleSort, Array is transvered from first element to last elements. Here current element is
+ 	* compared with next element. If current element is greater than next element. then its swapped.
+*/	
+
+public class BubbleSort {
+	public static void main(String[] args) {
+		
+	}
+
+}
