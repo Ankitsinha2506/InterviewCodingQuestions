@@ -1,0 +1,25 @@
+package com.interview.ownpractise;
+
+import java.util.Scanner;
+
+public class PrintReverse {
+	public static String reverseString(String name)	{
+		String reverseName = " ";
+		String[] part = name.split("\\s+");
+		if(part.length==3) {
+			reverseName = part[2] + " " + part[1] + " " + part[0];
+		} /*
+			 * else { System.out.println("Please Enter 3 Word Name.!!!"); return name ; }
+			 */
+		return reverseName;
+	}
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Name You want to Reverse : ");
+		String name = sc.nextLine();
+		String reverseName = reverseString(name);
+		System.out.println("Your Reverse String will be : "+reverseName);
+		sc.close();	
+	}
+}

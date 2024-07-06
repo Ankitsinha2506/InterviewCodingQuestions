@@ -1,0 +1,26 @@
+package com.interview.ownpractise;
+
+import java.util.Scanner;
+
+public class PrintReverse {
+	
+	public static String reverseString(String name)	{
+		String reverseName = " ";
+		String[] part = name.split("");
+		if(part.length==3) {
+			reverseName = part[1] + "" + part[0] + "" + part[2];
+		}
+		
+		return reverseName;
+	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String name = "Ankit Lal Sinha";
+		String reverseName = reverseString(name);
+		System.out.println(reverseName);
+		
+		sc.close();
+		
+	}
+
+}
