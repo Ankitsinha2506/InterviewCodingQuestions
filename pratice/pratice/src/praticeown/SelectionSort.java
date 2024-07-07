@@ -14,8 +14,6 @@ public class SelectionSort {
                 if (minIndex != i){
                     arr[minIndex] = arr[i];
                     arr[i] = min;
-
-
             }
         }
     }
@@ -25,6 +23,5 @@ public class SelectionSort {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
-
     }
 }

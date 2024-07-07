@@ -18,6 +18,5 @@ public class swapnumber {
         System.out.println("Num1 :" + a);
         System.out.println("Num2 :" + b);
         swapNumber(a, b);
-
     }
 }
