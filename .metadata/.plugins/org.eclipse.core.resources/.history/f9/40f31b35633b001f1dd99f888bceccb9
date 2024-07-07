@@ -1,0 +1,15 @@
+package com.interview.ownpractise;
+
+import java.util.ArrayList;
+
+public class RemoveDuplicatesArray {
+	
+	
+	public static void main(String[] args) {
+		int[] arr = {10,10,20,20,20,30,40,40};
+		ArrayList<Integer> result = new removeDubplicatesArray(arr);
+		System.out.println(result);
+		
+	}
+
+}
